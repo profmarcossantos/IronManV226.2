@@ -217,7 +217,7 @@ def start():
         quitButton = pygame.draw.rect(tela, branco, (10,60, larguraButtonQuit, alturaButtonQuit), border_radius=15)
         quitTexto = fonteMenu.render("Sair do Game", True, preto)
         tela.blit(quitTexto, (25,62))
-        texto = fonteMenu.render(f"The Best - {nome_maior} - {maior_pontos} - { dataJogada} ", True, branco)
+        texto = fonteMenu.render(f"O Melhor - {nome_maior} - {maior_pontos} - { dataJogada} ", True, branco)
         tela.blit(texto, (480,15))
         
 
